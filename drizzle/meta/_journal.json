@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1776735536321,
+      "tag": "0000_foamy_terrax",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1776735762173,
+      "tag": "0001_jittery_pixie",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1776737384894,
+      "tag": "0002_certain_the_leader",
+      "breakpoints": true
+    }
+  ]
+}
