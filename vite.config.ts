@@ -156,9 +156,11 @@ export default defineConfig({
   plugins,
   resolve: {
     alias: {
-      "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@shared": path.resolve(import.meta.dirname, "shared"),
-      "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+      // Como o Root da Vercel é /client, o @ aponta direto para ./src
+      "@": path.resolve(import.meta.dirname, "src"),
+      // O shared está um nível acima da pasta client
+      "@shared": path.resolve(import.meta.dirname, "../shared"),
+      "@assets": path.resolve(import.meta.dirname, "../attached_assets"),
     },
   },
   envDir: path.resolve(import.meta.dirname),
