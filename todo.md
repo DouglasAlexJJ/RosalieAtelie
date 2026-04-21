@@ -11,7 +11,7 @@
 - [x] Implementar CRUD de produtos via tRPC
 - [x] Implementar autenticação admin (protectedProcedure)
 - [x] Criar validação e cálculo de preços no backend
-- [ ] Implementar upload de imagens para S3
+- [x] Implementar upload de imagens para S3
 - [x] Criar testes unitários para API de produtos
 
 ## Fase 3: Frontend - Contexto e Componentes Core
